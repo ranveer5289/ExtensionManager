@@ -1,10 +1,10 @@
 ﻿{
-    "name": "FilterIt",
+    "name": "ExtensionManager",
     "version": "1.0",
     "manifest_version": 2,
     "description": "Enable/Disable user installed extensions",    
     "browser_action": {
-        "default_icon": "filter.png",
+        "default_icon": "Manage.png",
         "default_popup": "popup.html"
     },    
     "content_scripts": [ {
