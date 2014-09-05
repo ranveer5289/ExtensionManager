@@ -1,7 +1,7 @@
 ExtensionManager
 ================
 
-Enable &amp; Disable extensions.
+Enable &amp; Disable extensions for Chrome browser.
 
 I find it tedious to open **chrome://extensions/**  and then enable or disable a particular extension. So, to ease up this process I created this extension.
 
