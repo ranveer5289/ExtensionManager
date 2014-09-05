@@ -1,0 +1,19 @@
+﻿{
+    "name": "FilterIt",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Enable/Disable user installed extensions",    
+    "browser_action": {
+        "default_icon": "filter.png",
+        "default_popup": "popup.html"
+    },    
+    "content_scripts": [ {
+        "js": [ "jquery.min.js" ],
+		"matches": ["http://*/*"]
+    }],
+
+    "permissions" : [
+		"tabs",
+		"management"
+    ]
+}
